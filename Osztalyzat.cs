@@ -28,7 +28,6 @@ namespace WpfOsztalyzas
         public string Tantargy { get => tantargy; }
         public int Jegy { get => jegy; }
         public string CsaladiNev { get => csaladiNev;}
-
 		public static List<Osztalyzat> ForditottNev(List<Osztalyzat> lista)
 		{
             foreach (var item in lista)
